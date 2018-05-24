@@ -1,54 +1,208 @@
 body {
     background-color: lightyellow !important;
+    font-family: Arial;
 }
+
+@media only screen and(min-width: 1250px){
+    body{
+        font-size: 0.85em;
+        line-height: 1.5em;
+    }
+}
+
+@media only screen and(min-width: 736px){
+    body{
+        font-size: 1.1vw;
+        line-height: 1.65vw;
+    }
+}
+
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Begin container*/
+
+.container{
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1000px;
+    min-height: 1000px;
+    background-color: #FFF;
+    box-shadow: 0 0px 25px #333333;
+    -webkit-box-shadow: 0 0px 25px #333333;
+    -moz-box-shadow: 0 0px 25px #333333;
+}
+
+.inner-container{
+    padding: 15px;
+}
+
+@media only screen and (min-width: 736px){
+    .container{
+        max-width: 1250px;
+        width: auto;
+    }
+
+    .inner-container {
+        padding: 2%;
+    }
+}
+
+/*Einde container*/
+
 /*Begin header*/
 
-.logo{
-    width: 50%;
+.logo {
+    display: inline-block;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-right: 200px;
+    max-width: 450px;
+}
+
+.logo-img {
+    width: 400px;
+    vertical-align: unset;
+}
+
+.login{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 /*Einde header*/
 
 /*Begin navigatie*/
 
-.main-navbar  > ul {
+.main-navbar{
+    margin-top: 1.25em;
+    margin-bottom: 1.5em;
+}
+
+.main-navbar ul li a {
+    background-color: #00669B;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #00669B;
+}
+
+.main-navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #fff;
 }
 
-.main-navbar > li {
+.main-navbar li {
     float: left;
 }
 
-.main-navbar > li > a {
+.main-navbar li a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.main-navbar > li > a:hover {
-    background-color: #111;
+.main-navbar li a:hover {
+    color: #00669B;
+    background-color: white;
 }
 
 /*Einde navigatie*/
 
 /*Begin sidebar*/
 
-.sidebar {
+.sidebar-left {
+    float: left;
+    width: 170px;
+    margin-right: 10px;
+    min-height: 500px;
+}
+
+.sidebar-left-menu-items{
+    background-color: #EFEFEF;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.sidebar-left-menu-items a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.sidebar-left-menu-items a:hover{
+    color: #00669B;
+    text-decoration: none;
+}
+
+.sidebar-right{
     float: right;
+    width: 170px;
+    z-index: 999;
+    min-height: 500px;
+}
+
+@media only screen and (min-width: 736px){
+    .sidebar-left-menu-items{
+        padding: 20px;
+        line-height: 1.75em;
+    }
+
+    .sidebar-left-menu{
+        padding-right: 10%;
+    }
+
+    .sidebar-left{
+        width: 18%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sidebar-right{
+        width: 18%;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 /*Einde sidebar*/
 
 /*Begin main content*/
 
+.main-content{
+    float: left;
+    width: 610px;
+}
+
+@media only screen and (min-width: 736px) {
+    .main-content{
+        width: 64%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
 /*Einde main content*/
 
+/*Begin footer*/
+.cb{
+    clear: both;
+}
+
+.footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #CCCCCC;
+}
+
+/*Einde footer*/
 
