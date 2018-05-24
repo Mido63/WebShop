@@ -1,0 +1,37 @@
+body {
+    background-color: lightyellow !important;
+}
+
+.main-navbar  > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.main-navbar > li {
+    float: left;
+}
+
+.main-navbar > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-navbar > li > a:hover {
+    background-color: #111;
+}
+
+.logo{
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sidebar {
+    float: right;
+}
