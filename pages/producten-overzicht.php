@@ -24,7 +24,7 @@
                         <input type="checkbox" name="checkbox" id="login-checkbox" value="0">
                         <label for="login-checkbox">Onthoud mij</label>
                         <a href="#">Wachtwoord vergeten?</a>
-                        <a href="registreren.html">Registreert</a>
+                        <a href="registreren.php">Registreert</a>
                         <br />
                         <input type="submit" value="Login">
                     </form>
@@ -34,22 +34,22 @@
                 <nav class="main-navbar">
                     <ul>
                         <li>
-                            <a href="product.html" type="button">Product</a>
+                            <a href="product.php" type="button">Product</a>
                         </li>
                         <li>
-                            <a href="over-ons.html" type="button">Over ons</a>
+                            <a href="over-ons.php" type="button">Over ons</a>
                         </li>
                         <li>
-                            <a href="producten-overzicht.html" type="button">Productoverzicht</a>
+                            <a href="producten-overzicht.php" type="button">Productoverzicht</a>
                         </li>
                         <li>
-                            <a href="producten-overzicht-nav.html" type="button">Productoverzicht + nav</a>
+                            <a href="producten-overzicht-nav.php" type="button">Productoverzicht + nav</a>
                         </li>
                         <li>
-                            <a href="registreren.html" type="button">Registreren</a>
+                            <a href="registreren.php" type="button">Registreren</a>
                         </li>
                         <li>
-                            <a href="winkelwagen.html" type="button">Winkelwagen</a>
+                            <a href="winkelwagen.php" type="button">Winkelwagen</a>
                         </li>
                     </ul>
                 </nav>
